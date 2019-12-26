@@ -7,10 +7,14 @@
 
 ## 已使用
 - testApp
+  - /testapp
+  - /testapp/shppinglogin
+  - /testapp/getsession
 - ssh测试提交
 
-## 命令
-- git push https://github.com/lcc512/201912-common-server.git master
+## 安装命令
 - git clone https://github.com/lcc512/201912-common-server.git
-- forever app.js
+- cd 201912-common-server/
+- npm i 
+- forever start app.js
 - 端口：3019
