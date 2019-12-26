@@ -1,7 +1,7 @@
 // const moment = require('moment')
 const db = require('../../models/db')
 
-// const axios = require('axios')
+const axios = require('axios')
 
 exports.list = async(req, res, next) => {
 
