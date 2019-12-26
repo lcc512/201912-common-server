@@ -15,6 +15,6 @@ router.get('/', function(req, res) {
 router.get('/list', baseInfo.list)
     .post('/info', baseInfo.create)
     .get('/shopinglogin', baseInfo.shopping_login)
-    .get('/getsession', baseInfo.userinfo_one)
+    .get('/getsession/:code', baseInfo.userinfo_one)
 
 module.exports = router
